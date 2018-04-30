@@ -1,6 +1,10 @@
 plugins {
-  id 'java'
+  id "java"
+  id "application"
 }
+
+mainClassName = "Main"
+
 archivesBaseName = 'gradle-manifest-multibyte-demo'
 jar {
   manifest {
